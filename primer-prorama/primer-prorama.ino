@@ -1,6 +1,6 @@
 /***********************************************************
 **                                                        **
-**                Descripcio programa                     **       
+**                Descripcio programa                     **
 **                                                        **
 ***********************************************************/
 
@@ -11,23 +11,23 @@
 
 //*****  Variables  ****************************************
 int ledpin = 13;
-//*****  Setup  ******************************************** 
+//*****  Setup  ********************************************
 
 void setup() {
   // seleciona pin numero 13  de la sortida
-    pinMode(ledpin, OUTPUT);
+  pinMode(ledpin, OUTPUT);
 
 }
 
-//*****  Loop     ******************************************* 
+//*****  Loop     *******************************************
 void loop() {
-  
+
   //activa pin numero 13 durant 1 segon
- digitalWrite(ledpin,HIGH);
- delay(1000);
- 
- //desactivar pin numero 13 duranr 1 segon
- digitalWrite(ledpin,LOW);
- delay(1000);
+  digitalWrite(ledpin, HIGH);
+  delay(1000);
+
+  //desactivar pin numero 13 duranr 1 segon
+  digitalWrite(ledpin, LOW);
+  delay(1000);
 
 }
